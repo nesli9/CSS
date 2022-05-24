@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace ;
+        }
+        div{
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            background-color: turquoise;
+        }
+        #yagmur{
+            font-family: 'Times New Roman', Times, serif;
+            background: url("img/pexels-photo-531880.jpeg")no-repeat  ;
+            background-size: 100%;
+
+        }
+        .yazi{
+            font-size: 20px;
+            text-shadow: 0px 0px 1px yellow;
+            background-color: gray;
+        }
+        .resimler{
+            width: 100%;
+            float: left;
+            font-weight: bold;
+            
+
+
+        }
+        .resim{
+            padding-top: 10px;
+            width: 33.33%;
+            float: left;
+
+        }
+        .resim:nth-child(1){
+            background: url("img/8-Misconceptions-About-Programmers-That-Will-Change-Your-Opinion-About-Them_4.jpg") no-repeat ;
+            background-size: 100% 250px;
+        }
+        .resim:nth-child(1) p{
+            color:yellow ;
+        }
+        .resim:nth-child(2){
+            background: url("img/Guide-How-to-build-career-as-a-programmer-without-college-degree.jpg") no-repeat;
+            background-size: 100% 250px;
+
+        }
+        .resim:nth-child(2) p{
+            color:wheat ;
+
+        }
+        .resim:nth-child(3){
+            background: url("img/0_6x7soxgALSibn7zS.jfif") no-repeat;
+            background-size: 100% 250px;
+        }
+        .resim:nth-child(3) p{
+            color: red;
+        }
+        #altKisim{
+            background-color: turquoise;
+            height: 300px;
+            clear: both;
+            color: black;
+
+        }
+        #altKisim img{
+            border: 5px dashed;
+
+        }
+        #altKisim p{
+            white-space:pre-line;
+            text-align: center;
+
+
+        }
+        #altKisim p span{
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        @media screen and (max-width:992px){
+            .resimler{
+                width: 100%;
+
+            }
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="yagmur">
+        <span class="yazi">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, tempore?</span>
+        
+    </div>
+    <div class="resimler"> 
+        <div class="resim">
+            Lorem, ipsum dolor.
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+        <div class="resim">
+            Lorem, ipsum dolor.
+            <p>Lorem ipsum dolor sit.</p>
+        </div>
+        <div class="resim">
+            Lorem, ipsum dolor.
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div id="altKisim">
+        <img src="img/indir.jpg" alt="">
+        <p> <span class="span"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+            Provident pariatur mollitia eius, aliquid velit eaque? Minima exercitationem ducimus aperiam ipsum at libero iure nisi incidunt, consectetur fugit dolor, odit facere!</p>
+        
+    </div>
+
+</body>
+</html>

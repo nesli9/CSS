@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img[title="1"]{
+            border: 5px solid black;
+        }
+        img[width="50%"]{
+            border: 8px solid red;
+        }
+
+        p{
+            font-size: 30px;
+        }
+
+        p[title^="paragraf"]{
+            color: red;
+
+
+        }
+        p[title$="paragraf"]{
+            color:green;
+        }
+        
+        p[ title ~= "dir"]{
+            background-color: gray;
+
+        }
+
+        a{
+            font-size: 30px;
+        }
+
+        a[ href="https://wwww.google.com" ]:visited{
+            color:red;
+
+        }
+        a[target="_blank"]{
+            color: yellow;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <img src="img/indir (1).jpg" width="40%" alt="" title="1"> <br><br>
+    <img src="img/indir.jpg " width="40%" alt=""> <br><br>
+    <img src="img/indir (1).jpg" width="50%" alt=""> <br><br>
+
+    <p title="paragraf 1 dir">paragraf 1</p>
+    <p title="paragraf değildir">paragraf 2</p>
+    <p title="bir paragraf">paragraf 3</p>
+
+    <a href="https://google.com">GOOGLE</a> <br><br>
+    <a href="https://youtube.com">YOUTUBE</a>
+
+</body>
+</html>
